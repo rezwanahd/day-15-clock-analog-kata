@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+* {
+	font-family: poppins;
+	font-weight: 100;
+	font-weight: 20px;
+}
+
+
+
+.clock {
+
+	width: 400px;
+	height: 400px;
+	background: rgb(255, 255, 255);
+	background-image: url('../img/c.png');
+	background-size:105%;
+	background-position: center ;
+	background-repeat: no-repeat;
+	margin: 100px auto;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+
+
+	
+
+}
+.clock::before {
+	content: '';
+	position: absolute;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	background: #000;
+	
+
+}
+.s {
+    width: 0px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    transform: rotate(0deg);
+}
+.s::before {
+    content: '';
+    width: 22px;
+    height: 200px;
+    background: url('../img/s.png') no-repeat;
+    background-size: 22px;
+    position: absolute;
+}
+
+.m {
+    width: 0px;
+    height: 281px;
+    display: flex;
+    justify-content: center;
+    transform: rotate(45deg);
+}
+
+.m::before {
+    content: '';
+    width: 85px;
+    height: 138px;
+    background: url('../img/m.png') no-repeat;
+    background-size: 83px;
+    position: absolute;
+}
+.h {
+    width: 0px;
+    height: 246px;
+    display: flex;
+    justify-content: center;
+    transform: rotate(90deg);
+}
+.h::before {
+    content: '';
+    width: 109px;
+    height: 129px;
+    background: url('../img/m.png') no-repeat;
+    background-size: 110px;
+    position: absolute;
+}
+
+
+
